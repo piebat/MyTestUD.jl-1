@@ -10,8 +10,14 @@ greet() = println("Hello World!")
 
 greet2() = println("Hello World!")
 
-function add_two(a,b)
+"""
+    add_two(a::Float64,b::Float64)
+
+Add two numbers: `a` is added once while `b`
+is added twice.
+"""
+function add_two(a::Float64,b::Float64)
     a + 2b
-end   
+end
 
 end # module
