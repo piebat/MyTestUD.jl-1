@@ -4,7 +4,8 @@ using MyTestUD
 makedocs(
     sitename = "MyTestUD",
     format = Documenter.HTML(),
-    modules = [MyTestUD]
+    modules = [MyTestUD],
+    doctest = true	
 )
 
 # Documenter can also automatically deploy documentation to gh-pages.
